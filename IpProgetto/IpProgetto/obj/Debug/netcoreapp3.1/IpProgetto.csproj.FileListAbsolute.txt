@@ -1,0 +1,13 @@
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\bin\Debug\netcoreapp3.1\IpProgetto.exe
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\bin\Debug\netcoreapp3.1\IpProgetto.deps.json
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\bin\Debug\netcoreapp3.1\IpProgetto.runtimeconfig.json
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\bin\Debug\netcoreapp3.1\IpProgetto.runtimeconfig.dev.json
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\bin\Debug\netcoreapp3.1\IpProgetto.dll
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\bin\Debug\netcoreapp3.1\IpProgetto.pdb
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\obj\Debug\netcoreapp3.1\IpProgetto.csprojAssemblyReference.cache
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\obj\Debug\netcoreapp3.1\IpProgetto.AssemblyInfoInputs.cache
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\obj\Debug\netcoreapp3.1\IpProgetto.AssemblyInfo.cs
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\obj\Debug\netcoreapp3.1\IpProgetto.csproj.CoreCompileInputs.cache
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\obj\Debug\netcoreapp3.1\IpProgetto.dll
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\obj\Debug\netcoreapp3.1\IpProgetto.pdb
+C:\Users\Fabio Musitelli\source\repos\IpProgetto\IpProgetto\obj\Debug\netcoreapp3.1\IpProgetto.genruntimeconfig.cache
