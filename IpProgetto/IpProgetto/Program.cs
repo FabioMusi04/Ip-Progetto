@@ -7,7 +7,9 @@ namespace IpProgetto
     {
         static void Main(string[] args)
         {
-            beginning:
+            inizio:
+            Console.WriteLine("                           Benvenuto, inserisci l'ip, ottetto per ottetto    ");
+            Console.WriteLine("-......................................................................................................................-");
             int[] IPottetto = new int[4];
             Console.WriteLine("Inserisci primo ottetto     ");
             IPottetto[0] = int.Parse(Console.ReadLine());
@@ -21,23 +23,24 @@ namespace IpProgetto
             Console.WriteLine("Inserisci quarto ottetto    ");
             IPottetto[3] = int.Parse(Console.ReadLine());
             Console.WriteLine("====================================================================");
-            for (int i = 0; i < IPottetto.Length; i++)
+            for (int i = 0; i<IPottetto.Length; i++)
             {
                 if (IPottetto[i] < 0 || IPottetto[i] > 255)
                 {
-                    Console.WriteLine("Errore");
+                    Console.WriteLine("Errore indirizzo IP inesistente");
                     Console.WriteLine("====================================================================");
                     Console.WriteLine("====================================================================");
-                    Console.WriteLine("Premi R per restartare");
+                    Console.WriteLine("Premi R per resettare la Console APP");
+                    Console.WriteLine("-......................................................................................................................-");
                     if (Console.ReadKey(true).Key == ConsoleKey.R)
                     {
                         Console.Clear();
-                        goto beginning;
+                        goto inizio;
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Ip-valido, ora valutiamo il tipo di classe");
+                    Console.WriteLine("Ip-valido, ora valutiamo la sua classe");
                     Console.WriteLine("====================================================================");
                     if (IPottetto[0] <= 127)
                     {
@@ -66,14 +69,15 @@ namespace IpProgetto
                     }
                     Console.WriteLine("====================================================================");
                     Console.WriteLine("====================================================================");
-                    Console.WriteLine("Premi R per restartare");
+                    Console.WriteLine("Premi R per resettare la Console APP");
+                    Console.WriteLine("-......................................................................................................................-");
                     if (Console.ReadKey(true).Key == ConsoleKey.R)
                     {
                         Console.Clear();
-                        goto beginning;
+                        goto inizio;
                     }
                 }
-            }          
-        }      
+            }
+        }
     }
 }
